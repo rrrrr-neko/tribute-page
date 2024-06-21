@@ -1,0 +1,56 @@
+body {
+  font-family: Montserrat, sens-serif;
+  margin: 0;
+}
+
+#title {
+  background: rgb(208, 206, 124);
+  text-align: center;
+  padding: 15px 0;
+  margin: 0;
+}
+
+#title > h1 {  
+  font-family: "Playwrite SK", cursive;  
+  margin: 0;
+  padding: 0;
+  font-size: 38px;
+}
+
+#title > p {
+  margin: 5px 0px 5px 0px;
+}
+#img-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#img-div img{
+  width: 400px;
+  max-width: 100%;
+}
+
+#img-caption{
+  padding: 10px 0;
+  font-size: 14px;
+  color: rgb(150, 137, 123);
+}
+
+#tribute-link{
+  width: 60%;
+  margin: 20px auto;
+  text-indent: 40px;
+  line-height: 1.5;
+}
+
+.link_info{
+  text-decoration: none;
+  color: rgb(150, 137, 123);
+}
+
+.link_info:hover{
+  color: rgb(98, 131, 149);
+}
+
